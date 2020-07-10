@@ -4,6 +4,7 @@ import './App.css';
 import Hello from './components/Hello';
 import NumberButton from './components/NumberButton';
 import DisplayButton from './components/DisplayButton';
+import GitHubCardApp from './components/GitHubCardApp';
 
 function App() {
   const [counter, setCounter] = useState(0);
@@ -28,6 +29,9 @@ function App() {
       <NumberButton onClickFunction={incrementCounter} increment={10} />
       <NumberButton onClickFunction={incrementCounter} increment={100} />
       <DisplayButton message={counter}/>
+      </div>
+      <div className="App-header">
+      <GitHubCardApp />
       </div>
     </div>
   );
