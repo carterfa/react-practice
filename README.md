@@ -1,5 +1,5 @@
 # react-practice
-Exploring basic concepts of the React library based on the Pluralsight course, "React: Getting Started".
+Exploring basic concepts of the React library based on the Pluralsight courses, "React: Getting Started" and "Building Applications with React and Redux".
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
